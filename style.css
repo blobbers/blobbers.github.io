@@ -1,6 +1,5 @@
 img{
-    width: 25%;
-    height: 50%;
+  image-resolution: 100%
 }
 p{
    font-weight: bold;
