@@ -73,93 +73,12 @@
   					</a>
   				</div>
   <!-- Send Message Form (Formspree)-->
-          <div class="row">
-            <form class="col s12 m12 l12" action="http://formspree.io/john@fga.io" method="POST">
-              <div class="row">
-                <div class="input-field col s12 m6 l6">
-                  <i class="material-icons prefix">account_circle</i>
-                  <input id="name" type="text" class="validate" name="name">
-                  <label for="_name">Name</label>
-                </div>
-                <div class="input-field col s12 m6 l6">
-                  <i class="material-icons prefix">work</i>
-                  <input id="company" type="text" class="validate" name="company">
-                  <label for="company">Company</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12 m6 l6">
-                  <i class="material-icons prefix">email</i>
-                  <input id="email" type="email" class="validate" name="_replyto">
-                  <label for="email" data-error="invalid">Email</label>
-                </div>
-                <div class="input-field col s12 m6 l6">
-                  <i class="material-icons prefix">phone</i>
-                  <input id="phone_num" type="tel" class="validate" name="phone_num">
-                  <label for="phone_num">Phone Number</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12 m12 l12">
-                  <i class="material-icons prefix">mode_edit</i>
-                  <textarea id="message" class="materialize-textarea" name="body"></textarea>
-                  <label for="message">Message</label>
-                </div>
-              </div>
-              <input type="hidden" name="_subject" value="Making a Connection" />
-              <input type="hidden" name="_next" value="http://vmshalkey.github.io/thanks.html" />
-              <input type="text" name="_gotcha" style="display:none" />
-              <button class="btn waves-effect waves-light light-blue" type="submit" name="action">Submit
-                <i class="material-icons right">send</i>
-              </button>
-            </form>
-          </div>
-        </div>
-        </div>
-        </div><div class="row">
-          					<form class="col s12 m12 l12" action="http://formspree.io/vanessa@fga.com" method="POST">
-          						<div class="row">
-          							<div class="input-field col s12 m6 l6">
-          								<i class="material-icons prefix">account_circle</i>
-          								<input id="name" type="text" class="validate" name="name">
-          								<label for="_name">Name</label>
-          							</div>
-          							<div class="input-field col s12 m6 l6">
-          								<i class="material-icons prefix">work</i>
-          								<input id="company" type="text" class="validate" name="company">
-          								<label for="company">Company</label>
-          							</div>
-          						</div>
-          						<div class="row">
-          							<div class="input-field col s12 m6 l6">
-          								<i class="material-icons prefix">email</i>
-          								<input id="email" type="email" class="validate" name="_replyto">
-          								<label for="email" data-error="invalid">Email</label>
-          							</div>
-          							<div class="input-field col s12 m6 l6">
-          								<i class="material-icons prefix">phone</i>
-          								<input id="phone_num" type="tel" class="validate" name="phone_num">
-          								<label for="phone_num">Phone Number</label>
-          							</div>
-          						</div>
-          						<div class="row">
-          							<div class="input-field col s12 m12 l12">
-          								<i class="material-icons prefix">mode_edit</i>
-          								<textarea id="message" class="materialize-textarea" name="body"></textarea>
-          								<label for="message">Message</label>
-          							</div>
-          						</div>
-          						<input type="hidden" name="_subject" value="Making a Connection" />
-          						<input type="hidden" name="_next" value="http://vmshalkey.github.io/thanks.html" />
-          						<input type="text" name="_gotcha" style="display:none" />
-          						<button class="btn waves-effect waves-light light-blue" type="submit" name="action">Submit
-          							<i class="material-icons right">send</i>
-          						</button>
-          					</form>
-          				</div>
-          			</div>
-          		</div>
-          	</div>
+          <form action="https://formspree.io/john@fga.io"
+        method="POST">
+        <input type="text" name="name">
+        <input type="email" name="_replyto">
+        <input type="submit" value="Send">
+        </form>
   <!-- ==== END Contact Me SECTION ==== -->
   <!-- ==== START Footer SECTION ==== -->
   	<footer class="page-footer orange">
